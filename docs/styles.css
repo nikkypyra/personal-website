@@ -1,0 +1,1 @@
+:root{--primary: salmon;--secondary: skyblue}*{box-sizing:border-box}body{font-family:serif;color:var(--primary)}.mb-20{margin-bottom:20px}header{padding:20px;background:var(--secondary)}

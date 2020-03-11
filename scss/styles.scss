@@ -1,0 +1,7 @@
+@import "variables";   //if want to use variables in base, variables needs to come first
+@import "base";
+@import "utils";
+
+
+@import "components/header";
+//@import "navigation"; or....teaser, footer, usercard, skills
