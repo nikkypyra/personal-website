@@ -6,9 +6,13 @@
 
 
 body {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: var(--primary);
     height: 100vh;
+}
+
+a {
+    text-decoration: none;
 }
 
 
