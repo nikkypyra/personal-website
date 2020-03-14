@@ -9,83 +9,89 @@
 <body>
     <header>
         <h1 class=”header__logo”>NP</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#resume">Resume</a>
-            <a href="#contact">Contact</a>
+        <nav class="header__nav">
+            <a class="header__nav--item" href="#about">About</a>
+            <a class="header__nav--item" href="#skills">Skills</a>
+            <a class="header__nav--item" href="#resume">Resume/CV</a>
+            <a class="header__nav--item" href="#contact">Contact</a>
         </nav>
         <!-- Add Language Option here with JS-->
     </header>
 
     <main>
         <section class="about" id="about">
-            <div class="links">
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/nikkypyra/"> <img src="/images/github.png" alt="Git Hub"> </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://codepen.io/nikkypyra"> <img src="/images/codepen.png" alt="Code Pen"> </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nikky-macleod-b46b06a3/"> <img src="/images/linkedin.png" alt="Linked In"> </a>
+            <div class="about__links">
+                <a class="about__links--icons" target="_blank" rel="noopener noreferrer" href="https://github.com/nikkypyra/"> <img src="/images/github.png" alt="Git Hub"> </a>
+                <a class="about__links--icons" target="_blank" rel="noopener noreferrer" href="https://codepen.io/nikkypyra"> <img src="/images/codepen.png" alt="Code Pen"> </a>
+                <a class="about__links--icons" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/nikky-macleod-b46b06a3/"> <img src="/images/linkedin.png" alt="Linked In"> </a>
             </div>
-            <h2>Hi, I'm Nikky,</h2>
-            <p>a Canadian Web Developer currently located in Hamburg, Germany!</p>
-            <img src="phot of me here" alt="">
+            <h2 class="about__h2">Hi, I'm Nikky,</h2>
+            <p class="about__p">a Canadian Web Developer currently located in Hamburg, Germany!</p>
+            <img class="about__img" src="phot of me here" alt="">
         </section>
 
         <section class="skills" id="skills">
-            <h2>Acquired Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Sass</li>
-                <li>Bootstrap</li>
-                <li>Javascript</li>
-                <li>Java(Basics)</li>
+            <h2 class="skills_h2">Acquired Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__list--item">HTML</li>
+                <li class="skills__list--item">CSS</li>
+                <li class="skills__list--item">Sass</li>
+                <li class="skills__list--item">Bootstrap</li>
+                <li class="skills__list--item">Javascript</li>
+                <li class="skills__list--item">Java(Basics)</li>
             </ul>
         </section>
 
         <section class="resume" id="resume">
-            <h2>Resume</h2>
+            <h2 class="resume__h2">Resume/CV</h2>
+            <section class="resume__grid">
+                <section class="education">
             <h3>Education</h3>
-            <h4>3/2020-5/2020 	neuefische GmbH - School and Pool for Digital Talent</h4>
+            <h4>3/2020-5/2020       neuefische GmbH - School and Pool for Digital Talent</h4>
             <ul>
                 <li>Hamburg, Germany</li>
                 <li>Web Development Trainee</li>
             </ul>
-            <h4>10/2019-2/2020 	Üniversität Hamburg</h4>
+            <h4>10/2019-2/2020      Üniversität Hamburg</h4>
             <ul>
                 <li>Hamburg, Germany</li>
                 <li>BSc. Computer Science</li>
                 <li>Erstes Semester erfolgreich abgeschlossen</li>
             </ul>
-            <h4>8/2009-5/2013 	University of Prince Edward Island - Atlantic Veterinary College</h4>
+            <h4>8/2009-5/2013       University of Prince Edward Island - Atlantic Veterinary College</h4>
             <ul>
                 <li>PEI, Canada</li>
                 <li>Doctor of Veterinary Medicine (DVM)</li>
                 <li>Rang 6/61</li>
                 <li>Dean's List Recipient</li>
             </ul>
-            <h4>9/2007-5/2010 	Saint Mary's University</h4>
+            <h4>9/2007-5/2010       Saint Mary's University</h4>
             <ul>
                 <li>NS, Canada</li>
                 <li>BSc. Biology </li>
                 <li>summa cum laude</li>
                 <li>President's Hall of Academic Excellence Inductee</li>
             </ul>
+        </section>
+        <section class="work">
             <h3>Work Experience</h3>
-            <h4>2/2019-4/2019 	Veterinarian</h4>
+            <h4>2/2019-4/2019       Veterinarian</h4>
             <ul>
                 <li>Hamburger Tierschutzverein von 1841 e.V.</li>
                 <li>Hamburg, Germany</li>
             </ul>
-            <h4>8/2018-9/2018 	Veterinary Intern</h4>
+            <h4>8/2018-9/2018       Veterinary Intern</h4>
             <ul>
                 <li>Hamburger Tierschutzverein von 1841 e.V.</li>
                 <li>Hamburg, Germany</li>
             </ul>
-            <h4>2/2019-4/2019 	Associate Veterinarian</h4>
+            <h4>2/2019-4/2019       Associate Veterinarian</h4>
             <ul>
                 <li>Queensway Veterinary Hospital</li>
                 <li>ON, Canada</li>
             </ul>
+        </section>
+        <section class="lang">
             <h3>Language Skills</h3>
             <h4>English</h4>
             <ul>
@@ -96,6 +102,8 @@
                 <li>C1 (Effective operational proficiency/Advanced)</li>
                 <li>TestDaF TDN-5 (Grade: 20/20)</li>
             </ul>
+        </section>
+        </section>
         </section>
 
         <section class="contact" id="contact">
