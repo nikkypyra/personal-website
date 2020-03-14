@@ -1,7 +1,18 @@
-@import "components/header-colors";
+header {
+  background: var(--tertiary);
+  color: var(--quaternary);
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
 
-.header {
-  padding: 20px;
-  margin: 20px;
-  background: var(--header-background);
+
+
+.header__logo {
+  margin: 16px;
+
+}
+
+.header__nav {
+  margin: 16px;
 }
