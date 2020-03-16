@@ -1,31 +1,34 @@
 .about {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 20px 10px;
 }
 
 .about__text {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1;
-    justify-content: left;
+
 }
 
 .about__links--icons {
-    grid-row: 1;
+    grid-row: 1/2;
+    grid-column: 1/2;
 }
 
 .about__text--h2 {
-    grid-row: 2;
+    grid-row: 2/3;
+    grid-column: 1/2;
 }
 
 .about__text--p {
-    grid-row: 3;
+    grid-row: 3/4;
+    grid-column: 1/2;
 }
 
 
 .about__img {
-    
+    grid-row: span 3;
+    grid-column: 2/3;
+    max-width: 100%;
 }
 
 .skills {
