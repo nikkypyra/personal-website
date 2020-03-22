@@ -14,6 +14,28 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--quinary);
+}
+
+ul {
+    list-style: none;
+}
+
+.title
+{
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: var(--quaternary);
+    margin-bottom: 8px;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+li {
+    margin: 2px;
 }
 
 

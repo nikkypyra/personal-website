@@ -5,12 +5,14 @@
 
 .about__title {
     color: var(--secondary);
+    font-size: 2rem;
 }
 
 .about__subtitle {
     text-align: center;
     color: var(--tertiary);
     font-style: italic;
+    font-size: 1rem;
 }
 
 .about__img {
@@ -47,6 +49,7 @@
     gap: 8px;
     justify-items: center;
     align-items: center;
+    margin-bottom: 88px;
 }
 
 .about__links {
@@ -58,12 +61,14 @@
 .about__title {
     grid-row: 2/3;
     grid-column: 1/2;
+    font-size: 3rem;
 }
 
 .about__subtitle {
     grid-row: 3/4;
     grid-column: 1/2;
     margin-top: -8px;
+    font-size: 1.5rem;
 }
 
 .about__img {
