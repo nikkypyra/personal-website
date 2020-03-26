@@ -1,20 +1,19 @@
 .skills {
-    text-align: center;
-    margin-top: 28px;
+  text-align: center;
+  margin-top: 28px;
 }
 
 .skills__list {
-    margin: 16px 24px;
-}
-    
-.skills__list--item {
-    display: inline-block;
-    border: thin solid;
-    border-radius: 4px;
-    border-color: var(--primary);
-    background: var(--tertiary);
-    color: var(--quinary);
-    padding: 10px;
-    margin: 5px;
+  margin: 16px 24px;
 }
 
+.skills__list--item {
+  display: inline-block;
+  border: thin solid;
+  border-radius: 4px;
+  border-color: var(--primary);
+  background: var(--tertiary);
+  color: var(--quinary);
+  padding: 10px;
+  margin: 5px;
+}
