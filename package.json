@@ -16,6 +16,12 @@
     "lint": "npm run htmlhint && npm run stylelint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run fix",
+      "pre-push": "npm run lint"
+    }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -24,6 +30,7 @@
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-prettier": "^3.1.2",
     "htmlhint": "^0.11.0",
+    "husky": "^4.2.3",
     "parcel-bundler": "^1.12.4",
     "prettier": "^2.0.2",
     "sass": "^1.26.3",
