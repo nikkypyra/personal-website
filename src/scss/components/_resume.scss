@@ -1,24 +1,24 @@
 .resume {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .resume__subsection {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 8px;
-    padding: 4px;
-    border: 2px solid var(--quaternary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 8px;
+  padding: 4px;
+  border: 2px solid var(--quaternary);
 }
 
 .resume__subtitle {
-    margin-top: 2px;
-    margin-bottom: 4px;
-    font-size: 1.3rem;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  font-size: 1.3rem;
 }
